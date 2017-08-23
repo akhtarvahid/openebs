@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+<style>
+img {
+    width:100%;
+}
+</style>
 </head>
 <body>
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+<p>It is better to use the style attribute to set the width and height of an image
+(instead of using the width and height attributes), because it prevents 
+internal or external styles sheets to change the original size of an image:</p>
+
+<p>Using the style attribute:</p>
+<img src="html5.gif" alt="HTML5 Icon" style="width:128px;height:128px;">
+
+<p>Using the width and height attributes:</p>
+<img src="html5.gif" alt="HTML5 Icon" width="128" height="128">
 
 </body>
 </html>
