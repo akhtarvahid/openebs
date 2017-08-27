@@ -286,6 +286,35 @@ div .sec2 .sec21:hover .sec211{
     }
     
 }
+@media screen and (max-width:455px) {
+
+    div .sec2{
+            height: 800px;
+            margin-top: 20px;
+            margin-bottom: 300px;
+           
+    }
+    div .sec2 .sec21{
+            width: 220px;
+            height: 220px;
+        }
+    div .sec2 .sec21 img{
+        height: 90px;
+        width: 90px;
+    }
+    div .sec2 .sec21 p{
+        font-size: 15px;
+    }
+   
+    div .sec2 .sec21:hover img{
+        height: 95px;
+        width:  95px;
+    }
+    div .sec2 .sec21:hover .sec211{
+        font-size:15px; 
+    }
+    
+}
 /*sec2 end*/
 
 .sec311{
