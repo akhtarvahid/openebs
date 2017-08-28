@@ -1,4 +1,7 @@
 body {margin:0;}
+.jumbotron {
+    margin-bottom: 0;
+  }
 h5 {
     font-size: 16px;
     font-family: fantasy;
@@ -21,6 +24,13 @@ h3{
   position:absolute;
   display: inline;
 }
+.header-right a{
+  padding:4px;
+}
+.header img:hover{
+   background-color: lightgrey;
+   cursor: pointer;
+}
 .header-left{
   margin-left: 20px;
 }
@@ -31,6 +41,7 @@ h3{
     padding: 4px;
 }
 .header-right img{
+  border-radius: 50%;
       width: 40px;
     height: 40px; 
 }
@@ -57,7 +68,7 @@ background-image: url('assets/menu.png');
     height: 10px;
     width: 10px;
     padding: 16px;
-    margin-top: 5px;
+    margin-top: 0px;
 }
 
 
@@ -102,14 +113,14 @@ ul{
 
 
 
-.sec1{
-  height: 300px;
+/*.sec1{
+  height: 365px;
   width: 100%;
-  background-image: url('assets/back3.jpg');
+  background-image: url('assets/back4.jpg');
   text-align: -webkit-center;
   color: white;
-}
-.sec1 #ebs{
+}*/
+/*.sec1 #ebs{
 
     padding-top: 50px;
     font-size: 55px;
@@ -118,7 +129,7 @@ ul{
 .sec1 p{
     font-size: 20px;
     font-family: monospace;
-}
+}*/
 
 /*sec2*/
 
@@ -169,7 +180,8 @@ div .sec2 .sec21:hover .sec211{
 
 @media screen and (max-width:1020px) {
     div .sec2{
-         height: 400px;
+         margin-top: 20px;
+         height: 500px;
          margin-bottom: 50px;
       }
     div .sec2 .sec21{
@@ -198,7 +210,7 @@ div .sec2 .sec21:hover .sec211{
 
 @media screen and (max-width:895px) {
     div .sec2{
-         height: 380px;
+         height: 600px;
          margin-bottom: 90px;
       }
     
